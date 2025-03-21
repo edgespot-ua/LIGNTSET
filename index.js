@@ -64,3 +64,70 @@ const data = null; // null (Порожнє значення)
 let agee = 11;
 
 console.log(String(age))
+
+
+
+
+
+
+
+
+
+
+
+//Математика в JavaScript. Арифметичні оператори, оператори порівняння.
+//  Декремент і інкремент.
+
+console.log(2+2)
+console.log(10-1)
+console.log(2*2)
+console.log(4/2)
+
+
+//піднесення числа в степінь
+console.log(2 ** 3)
+
+//залишок від ділення 
+console.log(5%2)
+
+
+//інкремент та дікремент 
+
+let count = 10;
+
+count--
+count++
+
+//оператори порівняння 
+console.log(5>3) //true 
+console.log(10<1)// false 
+console.log(2>=2)//true 
+console.log(3<=0)//false 
+
+console.log(5==5) //true 
+console.log(5!=5) //false  
+
+
+//порівняння строк 
+
+console.log('a'<'6')
+console.log('s'>'f')
+console.log('JavaSctipt' > 'Java')
+
+
+//порівняння різних типів даних 
+//для перевірки різних типів на рівність використовується 
+//    ===     або   !==
+
+console.log (2 === 2) //true 
+console.log('3'===3) // false 
+
+ 
+
+// в JS щоб привести тип string до числового типу використовується 
+// унарний плюс 
+let str_1 = '5'
+
+console.log( typeof str_1)  //через функцію typeof пезультат string 
+
+console.log( typeof +str_1)//через функцію typeof пезультат number
