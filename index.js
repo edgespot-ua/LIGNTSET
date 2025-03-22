@@ -131,3 +131,70 @@ let str_1 = '5'
 console.log( typeof str_1)  //через функцію typeof пезультат string 
 
 console.log( typeof +str_1)//через функцію typeof пезультат number
+
+
+
+
+
+
+
+
+
+
+
+
+
+//JavaScript условия if else. Тернарный оператор. Логические операторы. Оператор нулевого слияния.
+
+if(5<1){
+
+}else if(3<1){
+
+} 
+else{
+
+}
+
+
+
+//тернарний оператор   - ? - 
+
+const year = 2024 
+
+const message_32 = year === 2024 
+? 'Істина' 
+
+: year === 3000     //  ЩЕ ОДНА ПЕРЕВІРКА 
+? 'ще одна істина' //
+
+: 'не істина'
+
+
+console.log(message_32)
+
+
+//логічний оперант або  -  || -
+false || true 
+
+
+
+//логічний оператор і  - && -
+console.log(false && true ) // false 
+console.log(true || true ) // true 
+
+
+
+
+//оператор не - ! - 
+console.log(!true) // false 
+console.log(!false)//ture 
+
+
+
+//оператор нульового злиття ??
+// повертає значення першої смінної тілки якщо вона не null або undefined 
+const a = 0
+const b = 20
+
+const resul_1  = a ?? b
+//в результаті виведення змінної resul_1 виведеться значення змінної a = 0
