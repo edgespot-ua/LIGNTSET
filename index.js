@@ -240,3 +240,88 @@ if(readyAg){
 }else{
     console.log('окей, зачикаємо...')  
 }
+
+
+//функція swich case 
+
+const age_4 = +prompt('скільки тобі років ?', 18)
+
+switch (age_4) {
+    case 18:{
+console.log('Доступ дозволено')
+        break;
+    }
+
+    case 10000:{
+        console.log("вампірам вхід заборонений ")
+        break;
+    }
+
+    default:{
+console.log(`твій вік: ${age_4}`)
+        break;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//ЦИКЛИ 
+
+//WHILE 
+let count_45 = 0;
+
+while(count_45<10){
+console.log(count_45)
+count_45++;
+}
+
+
+//DO WHILE 
+let count55 = 1000;
+
+do{
+console.log(count55)
+count55++
+} while(count55< 10)
+
+
+//FOR 
+for(let i = 0; i < 4; i++){
+alert(i)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//ФУНКЦІЇ 
+
+function logHello(/*_ПАРАМЕТР_*/) {     //
+    concole.log('привіт!')             // ТІЛО ФУНКЦІЇ 
+}                                     //
+
+logHello()  // ВИКЛИК ФУНКЦІЇ
