@@ -347,5 +347,75 @@ function sum(a, b) {
 
 
 
-//ВИДИ ФУНКЦІЙ 
+//ВИДИ ОБЯВЛЕННЯ ФУНКЦІЙ 
 
+
+//стандарттне декларування 
+
+function name(/*аргументи функції */ ) {
+    return a+b;//значення 
+}
+
+
+
+
+//function expression
+
+const logHello = function () {
+    console.log('gh');
+}
+
+
+
+//Arrow function
+
+const logHelloQ = (/*параметр*/) =>{
+    console.log('ffdbd')  // тіло 
+}
+
+//особливістю стрілочної функції arrow function є неявне повернення із функціії. це доволяє сменшити написання тіла функції(вичеслення)
+//приклад:
+
+const logHell = (a , b ) => a+b 
+
+console.log(sum(1, 2) )
+
+
+
+
+
+
+
+
+
+
+
+
+
+//ОБ'ЄКТИ 
+
+const firstObject = {}               //
+                                    //   // снтатксис написання об'єкта 
+const secodObject =  new Object()  //  
+
+
+
+//в середені фігурних дужок обєкт представля набір властивостей 
+
+const person = {
+  name: "Іван",
+  age: 25,
+  isStudent: true, 
+  sayHi: () => console.log('Hello'),  //функцію в середені об'єкту називають "МЕТОДОМ"
+};
+
+
+//отримати любу властивість об'єкта можна наступним чином:
+
+console.log(person.age)
+//або 
+console.log(person['name'])
+
+
+//щоб викликати метод об'єкту потрібно прописати:
+person.sayHi()
